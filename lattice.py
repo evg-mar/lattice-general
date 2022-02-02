@@ -4,11 +4,11 @@ import functools
 import sys
 
 
-assert len(sys.argv)==2, "Call script: python3 lattice.py number_best"
+# assert len(sys.argv)==2, "Call script: python3 lattice.py number_best"
 
-number_best = int(sys.argv[1])
+# number_best = int(sys.argv[1])
 
-print("Compute for the first best:" , number_best)
+# print("Compute for the first best:" , number_best)
 
 
 class UniversePower(object):
