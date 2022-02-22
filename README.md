@@ -1,5 +1,5 @@
 General implementation of a Lattice structure. A lattice is a POS (partially ordered set) 
-possessing the additional condition of existance of LUB (lower upper bound) and GLB 
+possessing the additional property of existance of LUB (lower upper bound) and GLB 
 (greatest lower bound) for every finite subset of the POS. It can be used in multiple 
 problems where Lattice algorithms can apply. For every target domain, concrete base 
 Universe should be implemented, having the needed interface methods.
